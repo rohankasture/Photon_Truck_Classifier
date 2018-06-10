@@ -1,0 +1,89 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{3}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Buitinck, Louppe, Blondel, Pedregosa, Mueller,
+  Grisel, Niculae, Prettenhofer, Gramfort, Grobler, Layton, VanderPlas, Joly,
+  Holt, and Varoquaux}{Buitinck et~al\mbox{.}}{2013}]%
+        {sklearn_api}
+\bibfield{author}{\bibinfo{person}{Lars Buitinck}, \bibinfo{person}{Gilles
+  Louppe}, \bibinfo{person}{Mathieu Blondel}, \bibinfo{person}{Fabian
+  Pedregosa}, \bibinfo{person}{Andreas Mueller}, \bibinfo{person}{Olivier
+  Grisel}, \bibinfo{person}{Vlad Niculae}, \bibinfo{person}{Peter
+  Prettenhofer}, \bibinfo{person}{Alexandre Gramfort}, \bibinfo{person}{Jaques
+  Grobler}, \bibinfo{person}{Robert Layton}, \bibinfo{person}{Jake VanderPlas},
+  \bibinfo{person}{Arnaud Joly}, \bibinfo{person}{Brian Holt}, {and}
+  \bibinfo{person}{Ga{\"{e}}l Varoquaux}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{API} design for machine learning software:
+  experiences from the scikit-learn project}. In \bibinfo{booktitle}{\emph{ECML
+  PKDD Workshop: Languages for Data Mining and Machine Learning}}.
+  \bibinfo{pages}{108--122}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Hariharan Subramanian}}{{Hariharan
+  Subramanian}}{2004}]%
+        {iit:audioclass}
+\bibfield{author}{\bibinfo{person}{{Hariharan Subramanian}}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{title}{AUDIO SIGNAL CLASSIFICATION --- {Hariharan
+  Subramanian}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.ee.iitb.ac.in/~esgroup/es_mtech04_sem/es_sem04_paper_04307909.pdf}}.
+    (\bibinfo{year}{2004}).
+\newblock
+\newblock
+\shownote{[Online; accessed 29-April-2018].}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
+  contributors}}{2018}]%
+        {wiki:bandpass}
+\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Band-pass filter --- {Wikipedia}{,} The Free
+  Encyclopedia}.
+\newblock
+  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=Band-pass_filter&oldid=826691128}}.
+    (\bibinfo{year}{2018}).
+\newblock
+\newblock
+\shownote{[Online; accessed 29-April-2018].}
+
+
+\end{thebibliography}
